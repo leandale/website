@@ -1,0 +1,16 @@
+.navbar.transparent.navbar-inverse .navbar-inner {
+    background: rgba(0,0,0,0.8);
+}
+
+#showcase .features_op1_row .feature .img_box {
+    text-align: center;
+}
+
+#showcase .features_op1_row .feature .img_box .feature_image {
+    line-height: 300px;
+}
+
+#showcase .features_op1_row .feature .img_box .feature_image img {
+    display: inline-block;
+    vertical-align: middle;
+}
