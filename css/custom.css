@@ -6,6 +6,11 @@
     text-align: center;
 }
 
+#showcase .features_op1_row .feature .img_box img {
+    max-width: 240px;
+    max-height: 150px;
+}
+
 #showcase .features_op1_row .feature .img_box .feature_image {
     line-height: 180px;
 }
