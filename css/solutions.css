@@ -19,12 +19,14 @@
 	margin-bottom: 70px;
 }
 #features .option1 .feature {
+    padding-bottom: 60px;
 	border-bottom: 1px solid #e0e0e0;
 	margin-bottom: 65px;
 }
-#features .option1 .feature .info h2 {
+#features .option1 .feature .info h4 {
 	font-size: 21px;
-	margin-top: 35px;
+	margin-top: 15px;
+    line-height: 30px;
 }
 #features .option1 .feature.ss h2 {
 	margin-top: 45px;

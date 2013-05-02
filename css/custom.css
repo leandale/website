@@ -28,3 +28,7 @@ sup {
 .icon-10x {
     font-size: 10em;
 }
+
+#service_2 .lead_stream .description_wrapper img {
+    float:right;
+}
