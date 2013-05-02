@@ -7,13 +7,19 @@
 }
 
 #showcase .features_op1_row .feature .img_box .feature_image {
-    line-height: 300px;
+    line-height: 180px;
 }
 
-#showcase .features_op1_row .feature .img_box .feature_image img {
+#showcase .features_op1_row .feature .img_box .feature_image img,
+#showcase .features_op1_row .feature .img_box .feature_image i{
     display: inline-block;
     vertical-align: middle;
+    color: #3f92c4;
 }
 sup {
     font-size: 10px;
+}
+
+.icon-10x {
+    font-size: 10em;
 }

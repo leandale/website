@@ -210,6 +210,16 @@
     line-height: 21px;
     font-size: 13px;
 }
+
+#showcase .feature {
+    height: 360px;
+    padding-bottom: 38px;
+    background: white;
+    box-shadow: 1px 1px 2px 0px #E0E0E0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
 #showcase .features_op1_row .last{
     margin-right: 0;
 }
@@ -235,6 +245,10 @@
     max-width: 95%;
     margin: 0 auto;
     display: block;
+    padding: 20px 20px;
+}
+#showcase .features_op1_row .feature .img_box img.featured_customer {
+    width: 240px;
 }
 #showcase .features_op1_row .feature .img_box span.circle{
     background: rgba(17, 137, 217, 0.8);
@@ -284,7 +298,8 @@
 #features .feature.ss h3 {
     margin-top: 45px;
 }
-#features .feature .info h3 img {
+#features .feature .info h3 img,
+#features .feature .info h3 i {
     margin-right: 18px;
     position: relative;
     top: -10px;
