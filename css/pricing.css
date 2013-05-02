@@ -1,7 +1,22 @@
 /*Pricing Option 1*/
 #in_pricing{
 	margin-bottom: 100px;
-	margin-top: 70px;
+	margin-top: 30px;
+}
+#in_pricing .subtitle {
+    margin-bottom: 50px;
+}
+#in_pricing .subtitle h4 {
+    margin: 0;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 70px;
+    line-height: 35px;
+    /*text-align: center;*/
+}
+#in_pricing .subtitle img {
+    float:right;
 }
 #in_pricing .head{
     text-align: center;
@@ -76,7 +91,8 @@
 	margin-top: 30px;
 }
 #in_pricing .plan .features p,
-#in_pricing2 .plan .features p {
+#in_pricing2 .plan .features p,
+#in_pricing .plan .features li {
 	color: #838385;
 	margin-bottom: 5px;
 	font-size: 14px;

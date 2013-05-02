@@ -32,3 +32,31 @@ sup {
 #service_2 .lead_stream .description_wrapper img {
     float:right;
 }
+.section_header {
+    margin-bottom: 30px;
+}
+.green {
+    color: #93ce22;
+}
+.comparison table th,
+.comparison table td {
+    text-align: center;
+    font-weight: normal;
+}
+.comparison table tr.tco td {
+    background-color: #93ce22;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+.comparison table tr.tco td.small {
+    font-size: 16px;
+}
+.comparison table td i.bold {
+    font-size: 2.2em;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #BBB;
+}
+.comparison table td.left {
+    text-align: left;
+}

@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Business Template</title>
+	<title>LeanData</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
     <!-- Styles -->
     <link href="css/bootstrap.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/theme.css">
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
 
     <link rel="stylesheet" type="text/css" href="css/lib/animate.css" media="screen, projection">
@@ -18,54 +19,69 @@
     <![endif]-->
 </head>
 <body>
-    <div class="navbar navbar-inverse navbar-static-top">
-      <div class="navbar-inner">
-        <div class="container">
-            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </a>
-            <a class="brand" href="index.html">
-                <strong>CLEAN CANVAS</strong>
-            </a>
-            <div class="nav-collapse collapse">
-                <ul class="nav pull-right">
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="about-us.html">ABOUT US</a></li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                            PAGES
-                            <b class="caret"></b>
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a href="features.html">Features</a></li>
-                            <li><a href="services.html">Services</a></li>
-                            <li><a href="portfolio.html">Portfolio</a></li>
-                            <li><a href="portfolio-item.html">Portfolio Item</a></li>
-                            <li><a href="coming-soon.html">Coming Soon</a></li>
-                            <li><a href="sign-in.html">Sign in</a></li>
-                            <li><a href="sign-up.html">Sign up</a></li>
-                            <li><a href="backgrounds.html">Backgrounds</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="pricing.html" class="active">PRICING</a></li>
-                    <li><a href="contact.html">CONTACT US</a></li>
-                    <li><a href="blog.html">BLOG</a></li>
-                    <li><a class="btn-header" href="sign-up.html">Sign up</a></li>
-                    <li><a class="btn-header" href="sign-in.html">Sign in</a></li>
-                </ul>
+    <div class="navbar transparent navbar-inverse navbar-fixed-top">
+        <div class="navbar-inner">
+            <div class="container">
+                <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </a>
+                <a class="brand" href="index.html">
+                    <img id="logo" src="img/logo.png" alt="LeanData" title="Lean Data"  />
+                </a>
+                <div class="nav-collapse collapse">
+                    <ul class="nav pull-right">
+                        <li><a href="index.html" class="active">HOME</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle active" data-toggle="dropdown">
+                                SOLUTIONS
+                                <b class="caret"></b>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="why_clean_data_matters.html">Why Clean Data Matters</a></li>
+                                <li><a href="solutions.html">The Solution</a></li>
+                                <li><a href="products.html">Products</a></li>
+                                <li><a href="features.html">Features</a></li>
+                                <li><a href="pricing.html">Pricing</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle active" data-toggle="dropdown">
+                                BENEFITS
+                                <b class="caret"></b>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="benefits.html">Benefits</a></li>
+                                <li><a href="advantages.html">Advantages</a></li>
+                                <li><a href="differentiation.html">Differentiation</a></li>
+                                <li><a href="comparison.html">Comparison</a></li>
+                                <li><a href="benefits-summary.html">Benefits Summary</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="customers.html" class="active">CUSTOMERS</a></li>
+                        <li><a href="about-us.html" class="active">ABOUT US</a></li>
+                        <li><a href="contact.html" class="active">CONTACT US</a></li>
+                        <li><a href="blog.html" class="active">BLOG</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
-      </div>
     </div>
 
     <!-- Pricing Option 1 -->
     <div id="in_pricing">
         <div class="container">
-            <div class="head">
-                <h3>Clean Canvas is free for 14 days</h3>
-                <h6>After your trial ends, pick a plan that best fits your needs:</h6>
+
+            <div class="row section_header">
+                <h2>Pricing</h2>
+            </div>
+
+            <div class="row subtitle">
+                <img src="img/prissingImg.png"/>
+                <h4>
+                    LeanData can accommodate a company of any size. Our workforce expands with you, on demand. And it's cost-effective, since clean data means a higher ROI. No more spending precious hours data mapping, manually de-duping or bulk uploading.
+                </h4>
             </div>
 
             <div class="row charts_wrapp">
@@ -73,26 +89,18 @@
                 <div class="span4">
                     <div class="plan">
                         <div class="wrapper">
-                            <h3>Lite</h3>
-                            <div class="price">
-                                <span class="dollar">$</span> 
-                                <span class="qty">35</span> 
-                                <span class="month">/month</span>
-                            </div>
-                            <div class="features">
-                                <p>
-                                    <strong>10</strong>
-                                    Shared Projects
-                                </p>
-                                <p>
-                                    <strong>4</strong>
-                                    Team Members
-                                </p>
-                                <p>
-                                    <strong>10</strong>
-                                    Storage
-                                </p>
-                            </div>
+                            <h3>LeadStream<sup>TM</sup></h3>
+                            <ul class="features">
+                                <li>
+                                    Leads Only
+                                </li>
+                                <li>
+                                    Pay per record, or included as part of ContinuousClean
+                                </li>
+                                <li>
+                                    Additional services, like data enrichment and lead filtering, available on a per record basis
+                                </li>
+                            </ul>
                             <a class="order" href="#">ORDER NOW</a>
                         </div>
                     </div>
@@ -102,30 +110,18 @@
                     <div class="plan">
                         <div class="wrapper">
                             <img class="ribbon" src="img/badge.png">
-                            <h3>Pro</h3>
-                            <div class="price">
-                                <span class="dollar">$</span> 
-                                <span class="qty">99</span> 
-                                <span class="month">/month</span>
-                            </div>
-                            <div class="features">
-                                <p>
-                                    <strong>10</strong>
-                                    Shared Projects
-                                </p>
-                                <p>
-                                    <strong>25</strong>
-                                    Team Members
-                                </p>
-                                <p>
-                                    <strong>Unlimited</strong>
-                                     Storage
-                                </p>
-                                <p>
-                                    <strong>Plus </strong>
-                                    Phone Support
-                                </p>
-                            </div>
+                            <h3>ContinuousClean<sup>TM</sup></h3>
+                            <ul class="features">
+                                <li>
+                                    Monthly subscription for 24-7 monitoring of leads, contacts and accounts
+                                </li>
+                                <li>
+                                    Priority leads can be cleaned in less than five minutes
+                                </li>
+                                <li>
+                                    Includes ongoing LeadStream service
+                                </li>
+                            </ul>
                             <a class="order" href="#">ORDER NOW</a>
                         </div>
                     </div>
@@ -134,312 +130,30 @@
                 <div class="span4 standar">
                     <div class="plan">
                         <div class="wrapper">
-                            <h3>Standard</h3>
-                            <div class="price">
-                                <span class="dollar">$</span> 
-                                <span class="qty">65</span> 
-                                <span class="month">/month</span>
-                            </div>
-                            <div class="features">
-                                <p>
-                                    <strong>10</strong>
-                                    Shared Projects
-                                </p>
-                                <p>
-                                    <strong>4</strong>
-                                    Team Members
-                                </p>
-                                <p>
-                                    <strong>10</strong>
-                                    Storage
-                                </p>
-                            </div>
+                            <h3>CRMClean<sup>TM</sup></h3>
+                            <ul class="features">
+                                <li>
+                                    One-time fee based on the number of database records
+                                </li>
+                                <li>
+                                    Includes leads, contacts and account cleanup
+                                </li>
+                            </ul>
+                            <br/>
                             <a class="order" href="#">ORDER NOW</a>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="start">
-                <p>Start your free, no-risk, 14 day trial! </p>
-                <a href="#">Start Now!</a>
+            <div class="row subtitle">
+                <h4>
+                    We offer a free trial of our LeadStream service and a flexible pricing plan that scales with your business. You can cancel at any time or signup for a longer-term agreement and gain additional discounts. Get started today!
+                </h4>
             </div>
+
         </div>
-    </div>
-    <!-- FAQs -->
-    <div id="faq">
-        <div class="container">
-            <div class="section_header">
-                <h3>Frequently asked questions</h3>
-            </div>
 
-            <div class="row">
-                <div class="span6 block">
-                    <div class="box">
-                        <p class="title">How long are your contracts?</p>
-                        <p class="answ">
-                            There are many variations of passages of Lorem Ipsum available, but the randomised words which don’t look even slightly believable. If you are anything embarrassing hidden in the middle of text.</p>
-                    </div>
-                    <div class="box">
-                        <p class="title">How do i sign up?</p>
-                        <p class="answ">
-                            There are many variations of passages of Lorem Ipsum available, but the randomised words which don’t look even slightly believable. If you are anything embarrassing hidden in the middle of text.</p>
-                    </div>
-                </div>
-
-                <div class="span6 block">
-                    <div class="box">
-                        <p class="title">What is meant by unlimited?</p>
-                        <p class="answ">
-                            There are many variations of passages of Lorem Ipsum available, but the randomised words which don’t look even slightly believable. If you are anything embarrassing hidden in the middle of text.</p>
-                    </div>
-                    <div class="box">
-                        <p class="title">Is there a discount for yearly service?</p>
-                        <p class="answ">
-                            There are many variations of passages of Lorem Ipsum available, but the randomised words which don’t look even slightly believable. If you are anything embarrassing hidden in the middle of text.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Pricing Option 2 -->
-    <div id="in_pricing2">
-        <div class="container">
-            <div class="section_header">
-                <h3>Pricing <span>(option 2)</span></h3>
-            </div>
-
-            <div class="row charts_wrapp">
-                <!-- Plan Box -->
-                <div class="span3">
-                    <div class="plan">
-                        <div class="wrapper">
-                            <h3>Lite</h3>
-                            <div class="price">
-                                <span class="dollar">$</span> 
-                                <span class="qty">35</span> 
-                                <span class="month">/month</span>
-                            </div>
-                            <div class="features">
-                                <p>
-                                    <strong>10</strong>
-                                    Shared Projects
-                                </p>
-                                <p>
-                                    <strong>4</strong>
-                                    Team Members
-                                </p>
-                                <p>
-                                    <strong>10</strong>
-                                    Storage
-                                </p>
-                            </div>
-                            <a class="order" href="#">ORDER NOW</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Plan Box -->
-                <div class="span3 ultra">
-                    <div class="plan">
-                        <div class="wrapper">
-                            <img class="ribbon" src="img/badge.png">
-                            <h3>Ultra</h3>
-                            <div class="price">
-                                <span class="dollar">$</span> 
-                                <span class="qty">99</span> 
-                                <span class="month">/month</span>
-                            </div>
-                            <div class="features">
-                                <p>
-                                    <strong>10</strong>
-                                    Shared Projects
-                                </p>
-                                <p>
-                                    <strong>25</strong>
-                                    Team Members
-                                </p>
-                                <p>
-                                    <strong>Unlimited</strong>
-                                     Storage
-                                </p>
-                                <p>
-                                    <strong>Plus </strong>
-                                    Phone Support
-                                </p>
-                            </div>
-                            <a class="order" href="#">ORDER NOW</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Plan Box -->
-                <div class="span3">
-                    <div class="plan">
-                        <div class="wrapper">
-                            <h3>Standard</h3>
-                            <div class="price">
-                                <span class="dollar">$</span> 
-                                <span class="qty">65</span> 
-                                <span class="month">/month</span>
-                            </div>
-                            <div class="features">
-                                <p>
-                                    <strong>10</strong>
-                                    Shared Projects
-                                </p>
-                                <p>
-                                    <strong>4</strong>
-                                    Team Members
-                                </p>
-                                <p>
-                                    <strong>10</strong>
-                                    Storage
-                                </p>
-                            </div>
-                            <a class="order" href="#">ORDER NOW</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Plan Box -->
-                <div class="span3 black">
-                    <div class="plan">
-                        <div class="wrapper">
-                            <h3>Need more?</h3>
-                            <h6>Let’s talk.</h6>
-                            <p>If your company needs are larger than any of our plans, let’s talk.</p>
-                            <a class="order" href="#">GET IN TOUCH</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Pricing Option3 -->
-    <div id="in_pricing2">
-        <div class="container">
-            <div class="section_header">
-                <h3>Pricing <span>(option 3)</span></h3>
-            </div>
-
-            <div class="row charts_wrapp">
-                <!-- Plan Box -->
-                <div class="span3">
-                    <div class="plan">
-                        <div class="wrapper">
-                            <h3>Lite</h3>
-                            <div class="price">
-                                <span class="dollar">$</span> 
-                                <span class="qty">35</span> 
-                                <span class="month">/month</span>
-                            </div>
-                            <div class="features">
-                                <p>
-                                    <strong>10</strong>
-                                    Shared Projects
-                                </p>
-                                <p>
-                                    <strong>4</strong>
-                                    Team Members
-                                </p>
-                                <p>
-                                    <strong>10</strong>
-                                    Storage
-                                </p>
-                            </div>
-                            <a class="order" href="#">ORDER NOW</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Plan Box -->
-                <div class="span3">
-                    <div class="plan">
-                        <div class="wrapper">
-                            <h3>Standard</h3>
-                            <div class="price">
-                                <span class="dollar">$</span> 
-                                <span class="qty">65</span> 
-                                <span class="month">/month</span>
-                            </div>
-                            <div class="features">
-                                <p>
-                                    <strong>10</strong>
-                                    Shared Projects
-                                </p>
-                                <p>
-                                    <strong>4</strong>
-                                    Team Members
-                                </p>
-                                <p>
-                                    <strong>10</strong>
-                                    Storage
-                                </p>
-                            </div>
-                            <a class="order" href="#">ORDER NOW</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Plan Box -->
-                <div class="span3 ultra">
-                    <div class="plan">
-                        <div class="wrapper">
-                            <img class="ribbon" src="img/badge.png">
-                            <h3>Ultra</h3>
-                            <div class="price">
-                                <span class="dollar">$</span> 
-                                <span class="qty">99</span> 
-                                <span class="month">/month</span>
-                            </div>
-                            <div class="features">
-                                <p>
-                                    <strong>10</strong>
-                                    Shared Projects
-                                </p>
-                                <p>
-                                    <strong>25</strong>
-                                    Team Members
-                                </p>
-                                <p>
-                                    <strong>Unlimited</strong>
-                                     Storage
-                                </p>
-                                <p>
-                                    <strong>Plus </strong>
-                                    Phone Support
-                                </p>
-                            </div>
-                            <a class="order" href="#">ORDER NOW</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Plan Box -->
-                <div class="span3">
-                    <div class="plan">
-                        <div class="wrapper">
-                            <h3>Pro</h3>
-                            <div class="price">
-                                <span class="dollar">$</span> 
-                                <span class="qty">80</span> 
-                                <span class="month">/month</span>
-                            </div>
-                            <div class="features">
-                                <p>
-                                    <strong>10</strong>
-                                    Shared Projects
-                                </p>
-                                <p>
-                                    <strong>4</strong>
-                                    Team Members
-                                </p>
-                                <p>
-                                    <strong>10</strong>
-                                    Storage
-                                </p>
-                            </div>
-                            <a class="order" href="#">ORDER NOW</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
     </div>
 
 
