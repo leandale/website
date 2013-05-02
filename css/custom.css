@@ -35,21 +35,18 @@ sup {
 .section_header {
     margin-bottom: 30px;
 }
-.green {
-    color: #93ce22;
-}
 .comparison table th,
 .comparison table td {
     text-align: center;
     font-weight: normal;
 }
-.comparison table tr.tco td {
+.comparison table tr#tco td {
     background-color: #93ce22;
     color: white;
     font-weight: bold;
     font-size: 18px;
 }
-.comparison table tr.tco td.small {
+.comparison table tr#tco td.small {
     font-size: 16px;
 }
 .comparison table td i.bold {
@@ -59,4 +56,10 @@ sup {
 }
 .comparison table td.left {
     text-align: left;
+}
+.comparison .table-striped tbody > tr:nth-child(odd) > td, .table-striped tbody > tr:nth-child(odd) > th {
+    background-color: #F6F6F6;
+}
+.green {
+    color: #93ce22;
 }
