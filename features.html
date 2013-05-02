@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="css/theme.css">
     <link rel="stylesheet" type="text/css" href="css/lib/animate.css">
     <link rel="stylesheet" type="text/css" href="css/features.css">
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
 
     <!--[if lt IE 9]>
@@ -16,46 +17,30 @@
     <![endif]-->
 </head>
 <body>
-    <div class="navbar navbar-inverse navbar-static-top">
-      <div class="navbar-inner">
-        <div class="container">
-            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </a>
-            <a class="brand" href="index.html">
-                <strong>CLEAN CANVAS</strong>
-            </a>
-            <div class="nav-collapse collapse">
-                <ul class="nav pull-right">
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="about-us.html">ABOUT US</a></li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle active" data-toggle="dropdown">
-                            PAGES
-                            <b class="caret"></b>
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a href="features.html">Features</a></li>
-                            <li><a href="services.html">Services</a></li>
-                            <li><a href="portfolio.html">Portfolio</a></li>
-                            <li><a href="portfolio-item.html">Portfolio Item</a></li>
-                            <li><a href="coming-soon.html">Coming Soon</a></li>
-                            <li><a href="sign-in.html">Sign in</a></li>
-                            <li><a href="sign-up.html">Sign up</a></li>
-                            <li><a href="backgrounds.html">Backgrounds</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="pricing.html">PRICING</a></li>
-                    <li><a href="contact.html">CONTACT US</a></li>
-                    <li><a href="blog.html">BLOG</a></li>
-                    <li><a class="btn-header" href="sign-up.html">Sign up</a></li>
-                    <li><a class="btn-header" href="sign-in.html">Sign in</a></li>
-                </ul>
+    <div class="navbar transparent navbar-inverse navbar-fixed-top">
+        <div class="navbar-inner">
+            <div class="container">
+                <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </a>
+                <a class="brand" href="index.html">
+                    <img id="logo" src="img/logo.png" alt="LeanData" title="Lean Data"  />
+                </a>
+                <div class="nav-collapse collapse">
+                    <ul class="nav pull-right">
+                        <li><a href="index.html" class="active">HOME</a></li>
+                        <li><a href="solutions.html" class="active">SOLUTIONS</a></li>
+                        <li><a href="benefits.html" class="active">BENEFITS</a></li>
+                        <li><a href="customers.html" class="active">CUSTOMERS</a></li>
+                        <li><a href="about-us.html" class="active">ABOUT US</a></li>
+                        <li><a href="contact.html" class="active">CONTACT US</a></li>
+                        <li><a href="blog.html" class="active">BLOG</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
-      </div>
     </div>
 
     <div id="features" class="features_page">
@@ -63,153 +48,140 @@
             <!-- Feature Wrapper -->
             <div class="feature_wrapper option1">
                 <div class="section_header">
-                    <h3>Features <span>(Option 1)</span></h3>
-                </div>
-
-                <div class="row subtitle">
-                    <h2>
-                        There are many variations of passages of available, but the majority have suffered alteration in some on form, by injected humour, or randomised words which look even slightly believable.
-                    </h2>
+                    <h3>Features</h3>
                 </div>
 
                 <div class="row feature">
-                    <div class="span6">
-                        <img src="img/showcase1.png" />
+                    <div class="span6 pagination-centered">
+                        <img src="img/featuresImg1.png" />
                     </div>
                     <div class="span6 info">
                         <h3>
                             <img src="img/features-ico1.png" />
-                            Beautiful on all devices
+                            End-to-End Process Management
                         </h3>
                         <p>
-                            There are many variations of passages of Lorem Ipsum available, but the randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.
+                            LeanData takes your list, maps it, identifies duplicates and merges the data according to business rules you define. Our ContinuousClean solution extends that to include all accounts and contacts in your CRM.
                         </p>
                     </div>
                 </div>
-                <div class="row feature ss last">
+                <div class="row feature">
                     <div class="span6 info">
                         <h3>
                             <img src="img/features-ico2.png" />
-                            Blog page included
+                            Easy Setup
                         </h3>
                         <p>
-                            There are many variations of passages of Lorem Ipsum available, but the randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.
+                            LeanData makes data management simple - starting with the setup. Just download the easy-to-use AppExchange app, which adds a custom tab in your Salesforce instance and enables automated updates with marketing automation systems like Marketo and Eloqua.
                         </p>
                     </div>
-                    <div class="span6">
-                        <img src="img/showcase2.png" class="pull-right" />
+                    <div class="span6 pagination-centered">
+                        <img src="img/featuresImg2.png" />
                     </div>
                 </div>
+                <div class="row feature">
+                    <div class="span6 pagination-centered">
+                        <img src="img/featuresImg3.png" />
+                    </div>
+                    <div class="span6 info">
+                        <h3>
+                            <img src="img/features-ico1.png" />
+                            Uploads Made Simple
+                        </h3>
+                        <p>
+                            Once the app is installed, simply upload a CSV file. We will automatically format your data file, map all the fields against your Salesforce instance, and send a test lead to make sure everything is correct. With a few clicks you will be up and running, enjoying the competitive edge of clean data.
+                        </p>
+                    </div>
+                </div>
+                <div class="row feature">
+                    <div class="span6 info">
+                        <h3>
+                            <img src="img/features-ico2.png" />
+                            Fuzzy Matching Made Simple
+                        </h3>
+                        <p>
+                            Salesforce knows that "john.doe@company.com" and "john.doe@company.com" are the same person. LeanData's fuzzy algorithms can deduce that "John Doe (jdoe@gmail.com)" and "John Doe (john.doe@yahoo.com)" are likely the same person. But we take it a step further, by leveraging LeanData's distributed on-demand data analysts to verify that they are indeed the same person. By looking across all the available data, including company name, phone, and address fields, LeanData gives you a truly informed judgment and the highest match rates in the industry.
+                        </p>
+                    </div>
+                    <div class="span6 pagination-centered">
+                        <img src="img/featuresImg4.png" />
+                    </div>
+                </div>
+                <div class="row feature">
+                    <div class="span6 pagination-centered">
+                        <img src="img/featuresImg5.png" />
+                    </div>
+                    <div class="span6 info">
+                        <h3>
+                            <img src="img/features-ico1.png" />
+                            Flexible Business Rules
+                        </h3>
+                        <p>
+                            LeanData works with you to customize your business rules to resolve all your verified matches. Once we have verified that John Doe at jdoe@gmail.com is the same as John Doe at john.doe@yahoo.com, we'll let you specify how you want us to resolve it. Opt to add a campaign ID to the existing lead, append the email in a second field or any other process. You specify a rule one time and we can apply it to all leads of that category for this data upload or all future uploads. We are here to make sure the data works for you.
+                        </p>
+                    </div>
+                </div>
+                <div class="row feature">
+                    <div class="span6 info">
+                        <h3>
+                            <img src="img/features-ico2.png" />
+                            Comprehesive Audit Trail
+                        </h3>
+                        <p>
+                            We show you how the process works, every step of the way. Check up on analysts' matching and mapping, verify any changes you request, and customize business rules at any time.
+                        </p>
+                    </div>
+                    <div class="span6 pagination-centered">
+                        <img src="img/featuresImg6.png" />
+                    </div>
+                </div>
+                <div class="row feature">
+                    <div class="span6 pagination-centered">
+                        <img src="img/featuresImg7.png" />
+                    </div>
+                    <div class="span6 info">
+                        <h3>
+                            <img src="img/features-ico1.png" />
+                            Easy Undo
+                        </h3>
+                        <p>
+                            As we're sure you've noticed, Salesforce doesn't have an "undo" feature. Merged the wrong fields? Oops - guess you'll have to delete the whole record and start over. At LeanData, we don't think that's very efficient. The undo feature means you can unmerge records or revise other changes without losing data.
+                        </p>
+                    </div>
+                </div>
+                <div class="row feature">
+                    <div class="span6 info">
+                        <h3>
+                            <img src="img/features-ico2.png" />
+                            Real-time Reporting
+                        </h3>
+                        <p>
+                            Our detailed reporting provides status on updated records, status of list imports and ongoing CRM maintenance.
+                        </p>
+                    </div>
+                    <div class="span6 pagination-centered">
+                        <img src="img/featuresImg8.png" />
+                    </div>
+                </div>
+                <div class="row feature last">
+                    <div class="span6 pagination-centered">
+                        <img src="img/featuresImg9.png" />
+                    </div>
+                    <div class="span6 info">
+                        <h3>
+                            <img src="img/features-ico1.png" />
+                            Complete Data Security
+                        </h3>
+                        <p>
+                            Our algorithms run within your secure Salesforce instance and our analysts review only the data flagged by our algorithms as having potential issues. Data is then anonymized and parsed to different data analysts, who see only the fields necessary to perform their specific task, thus keeping your data secure.
+                        </p>
+                    </div>
+                </div>
+
             </div>
 
-            <!-- Feature Wrapper -->
-            <div class="feature_wrapper option2">
-                <div class="section_header">
-                    <h3>Features <span>(Option 2)</span></h3>
-                </div>
-
-                <!-- Features Row -->
-                <div class="row">
-                    <!-- Feature -->
-                    <div class="span6 feature">
-                        <div class="box">
-                            <img class="one" src="img/features-ico4.png" />
-                        </div>
-                        <div class="text">
-                            <h6>Desktop publishing packages </h6>
-                            <p>
-                                There are many variations of passages of generators on the  embarrassing hidden in randomised words which don't look even by these distribution of letters, as opposed to using content here, content here making.</p>
-                        </div>
-                    </div>
-                    <!-- Feature -->
-                    <div class="span6 feature right">
-                        <div class="box">
-                            <img class="two" src="img/features-ico5.png" />
-                        </div>
-                        <div class="text">
-                            <h6>Desktop publishing packages </h6>
-                            <p>
-                                There are many variations of passages of generators on the  embarrassing hidden in randomised words which don't look even by these distribution of letters, as opposed to using content here, content here making.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Features Row -->
-                <div class="row last">
-                    <!-- Feature -->
-                    <div class="span6 feature">
-                        <div class="box">
-                            <img class="one" src="img/features-ico6.png" />
-                        </div>
-                        <div class="text">
-                            <h6>Desktop publishing packages </h6>
-                            <p>
-                                There are many variations of passages of generators on the  embarrassing hidden in randomised words which don't look even by these distribution of letters, as opposed to using content here, content here making.</p>
-                        </div>
-                    </div>
-                    <!-- Feature -->
-                    <div class="span6 feature right">
-                        <div class="box">
-                            <img class="two" src="img/features-ico7.png" />
-                        </div>
-                        <div class="text">
-                            <h6>Desktop publishing packages </h6>
-                            <p>
-                                There are many variations of passages of generators on the  embarrassing hidden in randomised words which don't look even by these distribution of letters, as opposed to using content here, content here making.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Feature Wrapper -->
-            <div class="feature_wrapper option3">
-                <div class="section_header">
-                    <h3>Features <small>(Option 3)</small></h3>
-                </div>
-
-                <!-- Features Row -->
-                <div class="row">
-                    <!-- Feature -->
-                    <div class="span4 feature">
-                        <div class="img">
-                            <img src="img/features-ico6.png" />
-                        </div>
-                        <div class="text">
-                            <h6>Plan</h6>
-                            <p>
-                                There are many variations passages generators on the  embarrassing hidden in randomised words which don't look even slightly distracted content here making it look like.
-                            </p>
-                        </div>
-                    </div>
-                    <!-- Feature -->
-                    <div class="span4 feature">
-                        <div class="img">
-                            <img src="img/features-ico5.png" />
-                        </div>
-                        <div class="text">
-                            <h6>Design</h6>
-                            <p>
-                                There are many variations passages generators on the  embarrassing hidden in randomised words which don't look even slightly distracted content here making it look like.    
-                            </p>
-                        </div>
-                    </div>
-                    <!-- Feature -->
-                    <div class="span4 feature last">
-                        <div class="img">
-                            <img src="img/features-ico7.png" />
-                        </div>
-                        <div class="text">
-                            <h6>Develop</h6>
-                            <p>
-                                There are many variations passages generators on the  embarrassing hidden in randomised words which don't look even slightly distracted content here making it look like.    
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
-
 
     <!-- starts footer -->
     <footer id="footer">

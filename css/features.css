@@ -9,7 +9,7 @@
 }
 /* features */
 #features {
-	margin-top: 70px;
+	margin-top: 30px;
 }
 #features .section_header h3 span{
 	font-size: 18px;
@@ -19,6 +19,7 @@
 	margin-bottom: 70px;
 }
 #features .option1 .feature {
+    padding-bottom: 60px;
 	border-bottom: 1px solid #e0e0e0;
 	margin-bottom: 65px;
 }
