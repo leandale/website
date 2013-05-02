@@ -14,3 +14,6 @@
     display: inline-block;
     vertical-align: middle;
 }
+sup {
+    font-size: 10px;
+}

@@ -2,35 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40730831-7401-45e7-964e-362064427a08" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/logo.png" afterPath="$PROJECT_DIR$/img/logo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/index-slider.js" afterPath="$PROJECT_DIR$/js/index-slider.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/solutions.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solutions.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/custom.css" afterPath="$PROJECT_DIR$/css/custom.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/index.css" afterPath="$PROJECT_DIR$/css/index.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/theme.css" afterPath="$PROJECT_DIR$/css/theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ld-website.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="40730831-7401-45e7-964e-362064427a08" time="1367431487148" ignored="false" />
-    <file path="/index.html" changelist="40730831-7401-45e7-964e-362064427a08" time="1367441885304" ignored="false" />
-    <file path="/custom.css" changelist="40730831-7401-45e7-964e-362064427a08" time="1367436357586" ignored="false" />
+    <file path="/index.html" changelist="40730831-7401-45e7-964e-362064427a08" time="1367453716184" ignored="false" />
+    <file path="/custom.css" changelist="40730831-7401-45e7-964e-362064427a08" time="1367454829177" ignored="false" />
     <file path="/a.dummy" changelist="40730831-7401-45e7-964e-362064427a08" time="1367437579895" ignored="false" />
-    <file path="/index.css" changelist="40730831-7401-45e7-964e-362064427a08" time="1367437160176" ignored="false" />
+    <file path="/index.css" changelist="40730831-7401-45e7-964e-362064427a08" time="1367451917028" ignored="false" />
     <file path="$PROJECT_DIR$/../../ld-server-dale/Gemfile" changelist="40730831-7401-45e7-964e-362064427a08" time="1367449640421" ignored="false" />
-    <file path="$PROJECT_DIR$/../../ld-server-dale/app/views/home/_admin_index.html.erb" changelist="40730831-7401-45e7-964e-362064427a08" time="1367450003857" ignored="false" />
-    <file path="$PROJECT_DIR$/../../ld-server-dale/app/views/home/index.html.erb" changelist="40730831-7401-45e7-964e-362064427a08" time="1367450003856" ignored="false" />
-    <file path="$PROJECT_DIR$/../../ld-server-dale/db/schema.rb" changelist="40730831-7401-45e7-964e-362064427a08" time="1367450003856" ignored="false" />
+    <file path="$PROJECT_DIR$/../../ld-server-dale/app/views/home/_admin_index.html.erb" changelist="40730831-7401-45e7-964e-362064427a08" time="1367453526584" ignored="false" />
+    <file path="$PROJECT_DIR$/../../ld-server-dale/app/views/home/index.html.erb" changelist="40730831-7401-45e7-964e-362064427a08" time="1367453526584" ignored="false" />
+    <file path="$PROJECT_DIR$/../../ld-server-dale/db/schema.rb" changelist="40730831-7401-45e7-964e-362064427a08" time="1367453526584" ignored="false" />
     <file path="$PROJECT_DIR$/../../ld-server-dale/app/models/organization.rb" changelist="40730831-7401-45e7-964e-362064427a08" time="1367450003856" ignored="false" />
-    <file path="$PROJECT_DIR$/../../ld-server-dale/config/routes.rb" changelist="40730831-7401-45e7-964e-362064427a08" time="1367450003856" ignored="false" />
+    <file path="$PROJECT_DIR$/../../ld-server-dale/config/routes.rb" changelist="40730831-7401-45e7-964e-362064427a08" time="1367453526584" ignored="false" />
     <file path="$PROJECT_DIR$/../../ld-server-dale/app/views/organizations/index.html.erb" changelist="40730831-7401-45e7-964e-362064427a08" time="1367450003856" ignored="false" />
-    <file path="$PROJECT_DIR$/../../ld-server-dale/app/controllers/home_controller.rb" changelist="40730831-7401-45e7-964e-362064427a08" time="1367450003856" ignored="false" />
-    <file path="$PROJECT_DIR$/../../ld-server-dale/app/controllers/jobs_controller.rb" changelist="40730831-7401-45e7-964e-362064427a08" time="1367450003857" ignored="false" />
-    <file path="$PROJECT_DIR$/../../ld-server-dale/app/controllers/sfdc_sessions_controller.rb" changelist="40730831-7401-45e7-964e-362064427a08" time="1367450107580" ignored="false" />
-    <file path="$PROJECT_DIR$/../../ld-server-dale/app/models/salesforce_token.rb" changelist="40730831-7401-45e7-964e-362064427a08" time="1367450003856" ignored="false" />
+    <file path="$PROJECT_DIR$/../../ld-server-dale/app/controllers/home_controller.rb" changelist="40730831-7401-45e7-964e-362064427a08" time="1367453526584" ignored="false" />
+    <file path="$PROJECT_DIR$/../../ld-server-dale/app/controllers/jobs_controller.rb" changelist="40730831-7401-45e7-964e-362064427a08" time="1367453526584" ignored="false" />
+    <file path="$PROJECT_DIR$/../../ld-server-dale/app/controllers/sfdc_sessions_controller.rb" changelist="40730831-7401-45e7-964e-362064427a08" time="1367453526584" ignored="false" />
+    <file path="$PROJECT_DIR$/../../ld-server-dale/app/models/salesforce_token.rb" changelist="40730831-7401-45e7-964e-362064427a08" time="1367453526584" ignored="false" />
     <file path="$PROJECT_DIR$/../../ld-server-dale/app/models/account.rb" changelist="40730831-7401-45e7-964e-362064427a08" time="1367450003856" ignored="false" />
     <file path="$PROJECT_DIR$/../../ld-server-dale/config/initializers/constants.rb" changelist="40730831-7401-45e7-964e-362064427a08" time="1367449640421" ignored="false" />
     <file path="$PROJECT_DIR$/../../ld-server-dale/app/helpers/sfdc_sessions_helper.rb" changelist="40730831-7401-45e7-964e-362064427a08" time="1367449640421" ignored="false" />
     <file path="/sfdc_sessions_controller.rb" changelist="40730831-7401-45e7-964e-362064427a08" time="1367450102665" ignored="false" />
     <file path="$PROJECT_DIR$/../../ld-server-dale/app/controllers/organizations_controller.rb" changelist="40730831-7401-45e7-964e-362064427a08" time="1367450003856" ignored="false" />
     <file path="$PROJECT_DIR$/../../ld-server-dale/app/models/account_merge_group.rb" changelist="40730831-7401-45e7-964e-362064427a08" time="1367450003857" ignored="false" />
+    <file path="/solutions.html" changelist="40730831-7401-45e7-964e-362064427a08" time="1367454879654" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,34 +54,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="98" column="0" selection-start="4975" selection-end="4975" vertical-scroll-proportion="0.7559931">
+            <state line="91" column="32" selection-start="4526" selection-end="4526" vertical-scroll-proportion="-10.0">
               <folding>
                 <element signature="n#style#0;n#article#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#article#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#article#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#article#3;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="flexslider.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/flexslider.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="669" column="103" selection-start="28722" selection-end="28722" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index-slider.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/index-slider.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="364" column="13" selection-start="13334" selection-end="13334" vertical-scroll-proportion="0.0">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -85,7 +70,7 @@
       <file leaf-file-name="index.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="72" column="38" selection-start="1527" selection-end="1527" vertical-scroll-proportion="0.0">
+            <state line="86" column="29" selection-start="1723" selection-end="1723" vertical-scroll-proportion="-8.076923">
               <folding />
             </state>
           </provider>
@@ -94,7 +79,7 @@
       <file leaf-file-name="theme.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/theme.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="105" column="4" selection-start="2438" selection-end="2438" vertical-scroll-proportion="-23.192308">
               <folding />
             </state>
           </provider>
@@ -103,7 +88,25 @@
       <file leaf-file-name="custom.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/custom.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="1" selection-start="375" selection-end="375" vertical-scroll-proportion="0.0">
+            <state line="0" column="63" selection-start="50" selection-end="50" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="solutions.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/solutions.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="82" column="0" selection-start="4055" selection-end="4055" vertical-scroll-proportion="0.2936644">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="solutions.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/solutions.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="17" selection-start="208" selection-end="208" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -127,10 +130,13 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/css/custom.css" />
         <option value="$PROJECT_DIR$/js/index-slider.js" />
         <option value="$PROJECT_DIR$/css/index.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/theme.css" />
+        <option value="$PROJECT_DIR$/css/solutions.css" />
+        <option value="$PROJECT_DIR$/css/custom.css" />
+        <option value="$PROJECT_DIR$/solutions.html" />
       </list>
     </option>
   </component>
@@ -252,6 +258,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ld-website" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/css" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration default="true" type="RSpecRunConfigurationType" factoryName="RSpec">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
@@ -307,6 +319,13 @@
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
     <list size="0" />
@@ -411,21 +430,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/custom.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="1" selection-start="375" selection-end="375" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/theme.css">
+    <entry file="file://$PROJECT_DIR$/js/theme.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/theme.js">
+    <entry file="file://$PROJECT_DIR$/js/flexslider.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="669" column="103" selection-start="28722" selection-end="28722" vertical-scroll-proportion="0.26426175">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/index-slider.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="364" column="13" selection-start="13334" selection-end="13334" vertical-scroll-proportion="0.8008299">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
@@ -434,34 +460,47 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="38" selection-start="1527" selection-end="1527" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/index-slider.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="364" column="13" selection-start="13334" selection-end="13334" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/flexslider.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="669" column="103" selection-start="28722" selection-end="28722" vertical-scroll-proportion="0.0">
+        <state line="86" column="29" selection-start="1723" selection-end="1723" vertical-scroll-proportion="-8.076923">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="98" column="0" selection-start="4975" selection-end="4975" vertical-scroll-proportion="0.7559931">
+        <state line="91" column="32" selection-start="4526" selection-end="4526" vertical-scroll-proportion="-10.0">
           <folding>
             <element signature="n#style#0;n#article#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#article#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#article#2;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#article#3;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/solutions.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="17" selection-start="208" selection-end="208" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/theme.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="105" column="4" selection-start="2438" selection-end="2438" vertical-scroll-proportion="-23.192308">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="63" selection-start="50" selection-end="50" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solutions.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="82" column="0" selection-start="4055" selection-end="4055" vertical-scroll-proportion="0.2936644">
+          <folding />
         </state>
       </provider>
     </entry>
