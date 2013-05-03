@@ -63,3 +63,78 @@ sup {
 .green {
     color: #93ce22;
 }
+#features .feature div.left-float {
+    float: left;
+}
+#features .feature div.left-float:before {
+    float:right;
+}
+#features .feature div.right-float {
+    float: right;
+}
+#features .feature div.right-float:before {
+    float:left;
+}
+#features .feature div.left-float:before,
+#features .feature div.right-float:before {
+    content: "";
+    width: 107px;
+    height: 357px;
+}
+#features .feature .center-image {
+    position: absolute;
+    left: 50%;
+    margin-left: -107px;
+}
+#features .feature div.left-float h4,
+#features .feature div.right-float h4 {
+    font-size: 24px;
+    color: rgb(100, 100, 100);
+    font-weight: 300;
+    font-style: italic;
+}
+#features .feature div.left-float li,
+#features .feature div.right-float li {
+    font-size: 16px;
+    line-height: 30px;
+}
+#features .feature div.left-float,
+#features .feature div.right-float {
+    margin-top: 60px;
+}
+#features.customers_page .subtitle h2 {
+    text-align: left;
+}
+#service_2.case_studies .quote {
+    font-size: 24px;
+    line-height: 36px;
+    font-style: italic;
+    font-weight: 500;
+    text-align: right;
+    margin-bottom: 40px;
+}
+#service_2.case_studies .perk {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+#service_2.case_studies .perk .buttons {
+    margin: 20px 0;
+    text-align: center;
+}
+#service_2.case_studies .perk .button a {
+    color: #fff;
+}
+#service_2.case_studies .perk .button {
+    color: #fff;
+    font-weight: bold;
+    background-color: #81aa00;
+    padding: 10px 25px;
+    margin: 0 60px;
+    font-size: 16px;
+    border-radius: 5px;
+    display: inline-block;
+    -webkit-transition: opacity .1s linear;
+    -moz-transition: opacity .1s linear;
+    transition: opacity .1s linear;
+}

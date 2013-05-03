@@ -475,9 +475,11 @@
 #clients {
     margin-top: 75px;
 }
-#clients .client .img {
-    height: 76px;
-    width: 138px;
+#clients .client {
+    text-align: center;
+}
+#clients .client img {
+    width: 200px;
 }
 #clients .client .client1 {
     background: url('../img/client1.png') 0 -75px;
