@@ -42,7 +42,7 @@
 	margin-bottom: 90px;
 }
 #team .section_header{
-	margin-bottom: 60px;
+	margin-bottom: 30px;
 }
 #team .section_header h3{
 	color: #9D9D9E;
@@ -127,6 +127,98 @@
 }
 #team .people .bio_box .info a:hover span.socialicons_h{
 	display: inline-block !important;
+}
+#board {
+    padding: 35px 0 25px;
+    margin: 0;
+    margin-bottom: 90px;
+}
+#board .section_header{
+    margin-bottom: 30px;
+}
+#board .section_header h3{
+    /*color: #9D9D9E;*/
+    /*border-color: #9D9D9E;*/
+    margin: 0;
+}
+#board .people{
+    margin: 0;
+}
+#board .people .row1{
+    margin: 0 0 50px 0;
+}
+#board .people .bio_box{
+    margin: 0;
+}
+#board .people .bio_boxr{
+    float: right;
+}
+#board .people .bio_box img{
+    float: left;
+}
+#board .people .bio_boxr img{
+    margin-left: 38px;
+}
+#board .people .bio_box .info{
+    float: left;
+    margin: 38px 0 0 30px;
+}
+#board .people .bio_box .info p{
+    margin-bottom: 0;
+}
+#board .people .bio_box .info p.name{
+    /*color: #fff;*/
+    font-style: italic;
+    margin-bottom: 4px;
+    font-size: 21px;
+}
+#board .people .bio_box .info p.area{
+    color: #888888;
+    font-style: italic;
+    font-style: 16px;
+    margin-bottom: 18px;
+}
+#board .people .bio_box .info a {
+    margin-right: 10px;
+}
+#board .people .bio_box .info a span{
+    display: inline-block;
+    width: 33px;
+    height: 33px;
+}
+#board .people .bio_box .info span.ico1,
+#board .people .bio_box .info span.ico1h{
+    background-position: 0px 0px;
+}
+#board .people .bio_box .info span.ico2,
+#board .people .bio_box .info span.ico2h{
+    background-position: -37px 0px;
+}
+#board .people .bio_box .info span.ico3,
+#board .people .bio_box .info span.ico3h{
+    background-position: -75px 0px;
+}
+#board .people .bio_box .info span.ico4,
+#board .people .bio_box .info span.ico4h{
+    background-position: -112px -1px;
+}
+#board .people .bio_box .info span.ico5,
+#board .people .bio_box .info span.ico5h{
+    background-position: -151px 0px;
+}
+#board .people .bio_box .info span.ico6,
+#board .people .bio_box .info span.ico6h{
+    background-position: -188px -1px;
+}
+#board .people .bio_box .info span.ico7,
+#board .people .bio_box .info span.ico7h{
+    background-position: -226px 0px;
+}
+#board .people .bio_box .info a:hover span.socialicons{
+    display: none;
+}
+#board .people .bio_box .info a:hover span.socialicons_h{
+    display: inline-block !important;
 }
 .socialicons{
 	background: url('../img/socialicons.png') no-repeat;

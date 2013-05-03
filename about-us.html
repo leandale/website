@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Business Template</title>
+	<title>LeanData</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!-- Styles -->
@@ -11,6 +11,7 @@
 
     <link rel="stylesheet" type="text/css" href="css/lib/animate.css" media="screen, projection">
     <link rel="stylesheet" href="css/about.css" type="text/css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
     <link rel="stylesheet" href="css/lib/flexslider.css" type="text/css" media="screen" />
 
     <!--[if lt IE 9]>
@@ -18,8 +19,8 @@
     <![endif]-->
 </head>
 <body>
-    <div class="navbar navbar-inverse navbar-static-top">
-      <div class="navbar-inner">
+<div class="navbar transparent navbar-inverse navbar-fixed-top">
+    <div class="navbar-inner">
         <div class="container">
             <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
                 <span class="icon-bar"></span>
@@ -27,38 +28,55 @@
                 <span class="icon-bar"></span>
             </a>
             <a class="brand" href="index.html">
-                <strong>CLEAN CANVAS</strong>
+                <img id="logo" src="img/logo.png" alt="LeanData" title="Lean Data"  />
             </a>
             <div class="nav-collapse collapse">
                 <ul class="nav pull-right">
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="about-us.html" class="active">ABOUT US</a></li>
+                    <li><a href="index.html" class="active">HOME</a></li>
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                            PAGES
+                        <a href="#" class="dropdown-toggle active" data-toggle="dropdown">
+                            SOLUTIONS
                             <b class="caret"></b>
                         </a>
                         <ul class="dropdown-menu">
+                            <li><a href="why_clean_data_matters.html">Why Clean Data Matters</a></li>
+                            <li><a href="solutions.html">The Solution</a></li>
+                            <li><a href="products.html">Products</a></li>
                             <li><a href="features.html">Features</a></li>
-                            <li><a href="services.html">Services</a></li>
-                            <li><a href="portfolio.html">Portfolio</a></li>
-                            <li><a href="portfolio-item.html">Portfolio Item</a></li>
-                            <li><a href="coming-soon.html">Coming Soon</a></li>
-                            <li><a href="sign-in.html">Sign in</a></li>
-                            <li><a href="sign-up.html">Sign up</a></li>
-                            <li><a href="backgrounds.html">Backgrounds</a></li>
+                            <li><a href="pricing.html">Pricing</a></li>
                         </ul>
                     </li>
-                    <li><a href="pricing.html">PRICING</a></li>
-                    <li><a href="contact.html">CONTACT US</a></li>
-                    <li><a href="blog.html">BLOG</a></li>
-                    <li><a class="btn-header" href="sign-up.html">Sign up</a></li>
-                    <li><a class="btn-header" href="sign-in.html">Sign in</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle active" data-toggle="dropdown">
+                            BENEFITS
+                            <b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="benefits.html">Benefits</a></li>
+                            <li><a href="advantages.html">Advantages</a></li>
+                            <li><a href="differentiation.html">Differentiation</a></li>
+                            <li><a href="comparison.html">Comparison</a></li>
+                            <li><a href="benefits-summary.html">Benefits Summary</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle active" data-toggle="dropdown">
+                            CUSTOMERS
+                            <b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="customers.html">Customers</a></li>
+                            <li><a href="case-studies.html">Case Studies</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="about-us.html" class="active">ABOUT US</a></li>
+                    <li><a href="contact.html" class="active">CONTACT US</a></li>
+                    <li><a href="blog.html" class="active">BLOG</a></li>
                 </ul>
             </div>
         </div>
-      </div>
     </div>
+</div>
 
     <div id="aboutus">
         <div class="container">
@@ -67,25 +85,14 @@
             </div>
             <div class="row">
                 <div class="span6 intro">
-                    <h6>There are many variations of passages Lorem Ipsum available, injected generators on the hidden.</h6>
+                    <h6>Company Overview</h6>
                     <p>
-                        There are many variations of passages of Lorem Ipsum available, injected 
-                        generators on the  embarrassing hidden in the middle all the dictionary making it look like readable English. Many desktop publishing packages and web page editors.
-                        <br /><br />
-                        There are many variations of passages of Lorem Ipsum available, but the ndictionary of over 200 Latin words, combined with a handful of models The generated Lorem Ipsum is therefore always free from repetition, the injected humour, or non-characteristic words etc.</p>
+                        At LeanData<sup>TM</sup>, we are focused on making our customers more successful by solving the garbage-in/garbage-out paradigm of enterprise data. We believe enterprises cannot make data-driven business decisions if they do not trust the quality of their data.
+                        <br/><br/>
+                        The name LeanData is derived from the core idea behind lean manufacturing, lean software development, and lean startups - maximizing customer value while minimizing waste. In order to manage a lean enterprise today, you must start by making sure your data is lean by eliminating the dirty data that's wasting your time and preventing you from focusing on customers.
                 </div>
-                <div class="span6 flexslider">
-                      <ul class="slides">
-                        <li>
-                          <img src="img/about_slide1.jpg" />
-                        </li>
-                        <li>
-                          <img src="img/about_slide1.jpg" />
-                        </li>
-                        <li>
-                          <img src="img/about_slide1.jpg" />
-                        </li>
-                      </ul>
+                <div class="span6">
+                    <img src="img/about_slide1.jpg" />
                 </div>
             </div>
         </div>
@@ -94,106 +101,62 @@
     <div id="team">
         <div class="container">
             <div class="section_header">
-                <h3>Meet our Team</h3>
+                <h3>Our Team</h3>
             </div>
 
             <div class="row people">
                 <div class="row row1">
                     <div class="span6 bio_box">
-                        <img src="img/ale.png" alt="">
+                        <img src="img/Evan.jpg" alt="">
                         <div class="info">
-                            <p class="name">Alejandra Galvan Castillo</p>
-                            <p class="area">Creative Director</p>
-                            <a href="#" class="facebook">
-                                <span class="socialicons ico1"></span>
-                                <span class="socialicons_h ico1h"></span>
-                            </a>
-                            <a href="#" class="twitter">
-                                <span class="socialicons ico2"></span>
-                                <span class="socialicons_h ico2h"></span>
-                            </a>
-                            <a href="#" class="flickr">
-                                <span class="socialicons ico4"></span>
-                                <span class="socialicons_h ico4h"></span>
-                            </a>
-                            <a href="#" class="dribble">
-                                <span class="socialicons ico6"></span>
-                                <span class="socialicons_h ico6h"></span>
-                            </a>
+                            <p class="name">Evan Liang</p>
+                            <p class="area">Co-founder & Chief Executive Officer</p>
+                            <div class="blurb">
+                                Evan Liang is the CEO and co-founder of LeanData, which he founded after managing data cleanup efforts at his last company and feeling the pain of cleaning Salesforce data by hand. Prior to LeanData, Evan was the GM and VP Products at Caring.com, where he grew a small acquisition into the company’s main business, generating over 50% of the company’s revenue over 2 years. Before Caring.com, Evan worked at Shasta Ventures, a leading venture capital firm focused on end-user-driven businesses. Prior to Shasta, Evan worked in product management at eBay with a focus on buyer experience and, before that, in business development at Microsoft, where he helped launch the Xbox 360. Evan started his career at Battery Ventures, where he specialized in software and e-commerce investments.
+                                <br/><br/>
+                                Evan holds an MBA from Kellogg and a BS in Industrial Engineering from Stanford University.
+                            </div>
                         </div>
                     </div>
 
                     <div class="span6 bio_box bio_boxr">
-                        <img src="img/ale.png" alt="">
+                        <img src="img/Kelvin.jpg" alt="">
                         <div class="info">
-                            <p class="name">Alejandra Galvan Castillo</p>
-                            <p class="area">Creative Director</p>
-                            <a href="#" class="facebook">
-                                <span class="socialicons ico1"></span>
-                                <span class="socialicons_h ico1h"></span>
-                            </a>
-                            <a href="#" class="twitter">
-                                <span class="socialicons ico2"></span>
-                                <span class="socialicons_h ico2h"></span>
-                            </a>
-                            <a href="#" class="flickr">
-                                <span class="socialicons ico4"></span>
-                                <span class="socialicons_h ico4h"></span>
-                            </a>
-                            <a href="#" class="dribble">
-                                <span class="socialicons ico6"></span>
-                                <span class="socialicons_h ico6h"></span>
-                            </a>
+                            <p class="name">Kelvin Cheung</p>
+                            <p class="area">Co-founder & CTO</p>
+                            <div class="blurb">
+                                Kelvin is the CTO and co-founder of LeanData, where he manages the design and architecture of LeanData's application and technology stack. Prior to founding LeanData, Kelvin was the CEO and founder of Wertago, a mobile-app development company that won Google's Android Developer Challenge. Prior to Wertago, he held positions as a software-development manager at both Ooma and Syndeo Corporation. Kelvin started his career as a developer in the Server Technology group at Oracle.
+                                <br/><br/>
+                                Kelvin holds an MS in Computer Science from the Massachusetts Institute of Technology and BS degrees in both Mathematics and Computer Science also from MIT.
+                            </div>
                         </div>
                     </div>
                 </div>
 
                 <div class="row row1">
                     <div class="span6 bio_box">
-                        <img src="img/ale.png" alt="">
+                        <img src="img/dale.jpg" alt="">
                         <div class="info">
-                            <p class="name">Alejandra Galvan Castillo</p>
-                            <p class="area">Creative Director</p>
-                            <a href="#" class="facebook">
-                                <span class="socialicons ico1"></span>
-                                <span class="socialicons_h ico1h"></span>
-                            </a>
-                            <a href="#" class="twitter">
-                                <span class="socialicons ico2"></span>
-                                <span class="socialicons_h ico2h"></span>
-                            </a>
-                            <a href="#" class="flickr">
-                                <span class="socialicons ico4"></span>
-                                <span class="socialicons_h ico4h"></span>
-                            </a>
-                            <a href="#" class="dribble">
-                                <span class="socialicons ico6"></span>
-                                <span class="socialicons_h ico6h"></span>
-                            </a>
+                            <p class="name">Dale Chen</p>
+                            <p class="area">VP of Engineering & Co-founder</p>
+                            <div class="blurb">
+                                Dale Chen is the VP of Engineering at LeanData, where he leads the development process. Prior to LeanData, Dale was an engineering manager at SAP where he managed and scaled the core engineering team of SAP's social software product. Dale arrived at SAP via the acquisition of CubeTree, an enterprise collaboration suite, which was acquired by SuccessFactors and subsequently bought by SAP. Prior to SAP, Dale held positions in Engineering at Citizen Sports Inc, PeopleSoft, and Homestead Technologies.
+                                <br/><br/>
+                                Dale holds a BS in Computer Science from Stanford University.
+                            </div>
                         </div>
                     </div>
 
                     <div class="span6 bio_box bio_boxr">
-                        <img src="img/ale.png" alt="">
+                        <img src="img/vighnesh.jpg" alt="">
                         <div class="info">
-                            <p class="name">Alejandra Galvan Castillo</p>
-                            <p class="area">Creative Director</p>
-                            <a href="#" class="facebook">
-                                <span class="socialicons ico1"></span>
-                                <span class="socialicons_h ico1h"></span>
-                            </a>
-                            <a href="#" class="twitter">
-                                <span class="socialicons ico2"></span>
-                                <span class="socialicons_h ico2h"></span>
-                            </a>
-                            <a href="#" class="flickr">
-                                <span class="socialicons ico4"></span>
-                                <span class="socialicons_h ico4h"></span>
-                            </a>
-                            <a href="#" class="dribble">
-                                <span class="socialicons ico6"></span>
-                                <span class="socialicons_h ico6h"></span>
-                            </a>
+                            <p class="name">Vighnesh Rege</p>
+                            <p class="area">Founding Engineer</p>
+                            <div class="blurb">
+                                Vighnesh is a Founding Engineer at LeanData, where he helps build services that keep enterprise data clean. Prior to joining LeanData, Vighnesh worked on the tpot project at Stanford and was a summer intern with the Memcached team at Facebook.
+                                <br/><br/>
+                                Vighnesh holds an MS in Electrical Engineering from Stanford University, an MTech in Communication and a BTech in Electrical Engineering from IIT Bombay.
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -201,48 +164,56 @@
         </div>
     </div>
 
-    <div id="process">
+    <div id="board">
         <div class="container">
             <div class="section_header">
-                <h3>Our Process</h3>
+                <h3>Board Members</h3>
             </div>
-            <div class="row services_circles">
-                <div class="span4 description">
-                    <div class="text active">
-                        <h4>Plan what you need.</h4>
-                        <p>
-                            There are many variations of passages of  this suffered alteration in some form, by injected look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to making this the first true generator  Internet.</p>
+
+            <div class="row people">
+                <div class="row row1">
+                    <div class="span6 bio_box">
+                        <img src="img/Evan.jpg" alt="">
+                        <div class="info">
+                            <p class="name">Evan Liang</p>
+                            <p class="area">Co-founder & Chief Executive Officer</p>
+                            <div class="blurb">
+                                Evan Liang is the CEO and co-founder of LeanData, which he founded after managing data cleanup efforts at his last company and feeling the pain of cleaning Salesforce data by hand. Prior to LeanData, Evan was the GM and VP Products at Caring.com, where he grew a small acquisition into the company’s main business, generating over 50% of the company’s revenue over 2 years. Before Caring.com, Evan worked at Shasta Ventures, a leading venture capital firm focused on end-user-driven businesses. Prior to Shasta, Evan worked in product management at eBay with a focus on buyer experience and, before that, in business development at Microsoft, where he helped launch the Xbox 360. Evan started his career at Battery Ventures, where he specialized in software and e-commerce investments.
+                                <br/><br/>
+                                Evan holds an MBA from Kellogg and a BS in Industrial Engineering from Stanford University.
+                            </div>
+                        </div>
                     </div>
-                    <div class="text">
-                        <h4>Develop your product or service.</h4>
-                        <p>
-                            There are many variations of passages of  this suffered alteration in some form, by injected look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to 
-                            making this the first true generator  Internet.</p>
-                    </div>
-                    <div class="text">
-                        <h4>Design this theme to your needs.</h4>
-                        <p>
-                            There are many variations of passages of  this suffered alteration in some form, by injected look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to making this the first true generator  Internet.</p>
+
+                    <div class="span6 bio_box bio_boxr">
+                        <img src="img/Ravi.jpg" alt="">
+                        <div class="info">
+                            <p class="name">Ravi Mohan</p>
+                            <p class="area">Board Member from Shasta Ventures</p>
+                            <div class="blurb">
+                                Prior to co-founding Shasta Ventures, Ravi was a general partner at Battery Ventures where he led eight investments and served on the boards of 12 software and technology-enabled service companies. Prior to this, Ravi built transaction-processing systems at Accenture, sold and implemented packaged software applications for Hyperion Software Corporation, and ran MIC, a software development firm based in India that focuses on business intelligence solutions to multinational corporations. Ravi also spent time at McKinsey & Company working with consumer packaged goods companies.
+                            </div>
+                        </div>
                     </div>
                 </div>
 
-                <div class="span7 areas">
-                    <div class="circle active">
-                        <img src="img/plan.png" />
-                        <span>Plan</span>
+                <div class="row row1">
+                    <div class="span6 bio_box">
+                        <img src="img/ken.jpg" alt="">
+                        <div class="info">
+                            <p class="name">Ken Rutsky</p>
+                            <p class="area">Adviser and Board Observer</p>
+                            <div class="blurb">
+                                Ken Rutsky is the Founder and President of KJR Associates, Inc, a strategic go to market consulting firm. Ken has spent over 20 years in the industry, launching his first Internet services while at Netscape. Since then, he has been CMO at several start-ups and ran Network Security Marketing at McAfee, where he launched McAfee's Secure Web Protection Service. Today, at KJR, he focuses on helping B2B technology companies accelerate their top-line growth with breakthrough positioning, messaging and go to market programs.
+                            </div>
+                        </div>
                     </div>
-                    <div class="circle">
-                        <img src="img/develop.png" />
-                        <span>Develop</span>
-                    </div>
-                    <div class="circle last_circle">
-                        <img src="img/design.png" />
-                        <span>Design</span>
-                    </div>
+
                 </div>
             </div>
         </div>
     </div>
+
 
     <!-- starts footer -->
     <footer id="footer">
