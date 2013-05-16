@@ -147,18 +147,3 @@ i {
     -moz-transition: opacity .1s linear;
     transition: opacity .1s linear;
 }
-#team .bio_box .blurb {
-    color: #EFEFEF;
-}
-#team .people .bio_box img {
-    margin: 20px 30px;
-}
-#team .people .bio_box .info {
-    float: none;
-}
-#board .people .bio_box img {
-    margin: 20px 30px;
-}
-#board .people .bio_box .info {
-    float: none;
-}
