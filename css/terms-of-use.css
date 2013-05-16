@@ -1,10 +1,10 @@
-#privacy_policy{
+#terms_of_use{
 	margin-top: 30px;
 }
-#privacy_policy i {
+#terms_of_use i {
     color: inherit;
 }
-#privacy_policy .section_header input[type="text"]{
+#terms_of_use .section_header input[type="text"]{
 	float: right;
 	margin-top: 9px;
 	background: url('../img/search.png') #fff no-repeat 5px;
@@ -12,23 +12,23 @@
 	width: 18%;
 	border-radius: 5px;
 }
-#privacy_policy .post_pic {
+#terms_of_use .post_pic {
 	border: 7px solid #fff;
 	border-radius: 5px;
 	box-shadow:1px 1px 2px 0px rgb(207, 207, 207);
 }
-#privacy_policy .post_content {
+#terms_of_use .post_content {
     padding-top: 20px;
 	padding-bottom: 20px;
 	border-bottom: 1px solid rgb(202, 202, 202);
 	box-shadow: 0px 1px 0px 0px white;
 }
-#privacy_policy .post_content h2 {
+#terms_of_use .post_content h2 {
 	font-size: 32px;
 	color: #3F3F3F;
 	margin-bottom: 15px;
 }
-#privacy_policy .post_content span.date{
+#terms_of_use .post_content span.date{
 	width: 100%;
 	font-size: 14px;
 	font-style: italic;
@@ -36,55 +36,55 @@
 	display: block;
 	color: #9C9C9C;
 }
-#privacy_policy .post_content p,
-#privacy_policy .post_content li {
+#terms_of_use .post_content p,
+#terms_of_use .post_content li {
 	line-height: 24px;
 	margin-bottom: 15px;
 }
-#privacy_policy .post_content .author_box {
+#terms_of_use .post_content .author_box {
 	margin-top: 50px;
 }
-#privacy_policy .post_content .author_box .author {
+#terms_of_use .post_content .author_box .author {
 	margin-top: 45px;
 	font-weight: bold;
 	font-size: 15px;
 	color: #1189D9;
 }
-#privacy_policy .post_content .author_box .area {
+#terms_of_use .post_content .author_box .area {
 	font-size: 15px;
 	font-style: italic;
 	margin-top: 5px;
 	color: #9C9C9C;
 }
-#privacy_policy .comments {
+#terms_of_use .comments {
 	margin-top: 3px;
 	padding-top: 50px;
 	border-bottom: 1px solid rgb(202, 202, 202);
 	box-shadow: 0px 1px 0px 0px white;
 	padding-bottom: 3px;
 }
-#privacy_policy .comments h4{
+#terms_of_use .comments h4{
 	font-size: 23px;
 	margin-top: 0;
 	margin-bottom: 25px;
 }
-#privacy_policy .comments .comment {
+#terms_of_use .comments .comment {
 	margin-bottom: 60px;
 	margin-top: 30px;
 }
-#privacy_policy .comments .comment.reply_to {
+#terms_of_use .comments .comment.reply_to {
 	margin-top: -10px;
 }
-#privacy_policy .comments .comment .author_pic {
+#terms_of_use .comments .comment .author_pic {
 	max-width: 55px;
 	float: right;
 }
-#privacy_policy .comments .comment .name {
+#terms_of_use .comments .comment .name {
 	font-weight: bold;
 	color: #3F3F3F;
 	font-size: 14px;
 }
-#privacy_policy .comments .comment a.reply {
+#terms_of_use .comments .comment a.reply {
 	color: #1189D9;
 	text-decoration: underline;
 	margin-left: 20px;
@@ -94,42 +94,42 @@
 	-ms-transition: color .2s;
 	transition: color .2s;
 }
-#privacy_policy .comments .comment a.reply:hover{
+#terms_of_use .comments .comment a.reply:hover{
 	color: #252528;
 }
-#privacy_policy .comments .comment .date {
+#terms_of_use .comments .comment .date {
 	font-size: 13px;
 	font-weight: bold;
 	color: #747B85;
 }
-#privacy_policy .comments .comment .response {
+#terms_of_use .comments .comment .response {
 	margin-top: 10px;
 	line-height: 22px;
 	font-size: 14px;
 }
 
 /* new comment */
-#privacy_policy .new_comment {
+#terms_of_use .new_comment {
 	padding-top: 30px;
 	margin-top: 3px;
 }
-#privacy_policy .new_comment h4{
+#terms_of_use .new_comment h4{
 	font-size: 23px;
 	color: #3F3F3F;
 }
-#privacy_policy .new_comment form {
+#terms_of_use .new_comment form {
 	margin-top: 35px;
 }
-#privacy_policy .new_comment form input[type="text"] {
+#terms_of_use .new_comment form input[type="text"] {
 	height: 25px;
 	border-radius: 3px;
 	width: 95.7%;
 }
-#privacy_policy .new_comment form textarea {
+#terms_of_use .new_comment form textarea {
 	margin-top: 10px;
 	width: 97.9%;
 }
-#privacy_policy .new_comment form a.send{
+#terms_of_use .new_comment form a.send{
 	float: right;
 	color: #fff;
 	border: 0 none;
@@ -146,13 +146,13 @@
 	-o-transition: background linear .2s, box-shadow linear .2s;
 	transition: background linear .2s, box-shadow linear .2s;
 }
-#privacy_policy .new_comment form a.send:hover{
+#terms_of_use .new_comment form a.send:hover{
 	background: #252528;
 }
-#privacy_policy address {
+#terms_of_use address {
     margin-left: 80px;
 }
-#privacy_policy .sidebar{
+#terms_of_use .sidebar{
 	margin: 0;
 	padding: 40px 19px 40px 28px;
 	background: #fff;
@@ -160,51 +160,51 @@
 	box-shadow:1px 1px 2px 0px rgb(207, 207, 207);
 	float: right;
 }
-#privacy_policy .sidebar .box{
+#terms_of_use .sidebar .box{
 	padding-bottom: 30px;
 	overflow: hidden;
 	margin-bottom: 40px;
 	border-bottom: 1px solid rgb(216, 216, 216);
 }
-#privacy_policy .sidebar .last{
+#terms_of_use .sidebar .last{
 	border: 0 none;
 	padding: 0;
 	margin-bottom: 0;
 }
-#privacy_policy .sidebar .box .recent{
+#terms_of_use .sidebar .box .recent{
 	width: 100%;
 	margin-bottom: 20px;
 	float: left;
 }
-#privacy_policy .sidebar .box .recent span img{
+#terms_of_use .sidebar .box .recent span img{
 	float: left;
 	margin-right: 10px;
 }
-#privacy_policy .sidebar .box .recent p{
+#terms_of_use .sidebar .box .recent p{
 	margin: 0;
 	line-height: 18px;
 	font-size: 14px;
 }
-#privacy_policy .sidebar .sidebar_header {
+#terms_of_use .sidebar .sidebar_header {
 	margin-bottom: 20px;
 }
-#privacy_policy .sidebar .sidebar_header h4{
+#terms_of_use .sidebar .sidebar_header h4{
 	font-size: 19px;
 	margin: 0;
 }
-#privacy_policy .sidebar .sidebar_menu {
+#terms_of_use .sidebar .sidebar_menu {
 	list-style-type: none;
 	margin-left: 0px;
 }
-#privacy_policy .sidebar .sidebar_menu ul{
+#terms_of_use .sidebar .sidebar_menu ul{
 	margin: 0;
 	padding: 0;
 	list-style: none;
 }
-#privacy_policy .sidebar .sidebar_menu li {
+#terms_of_use .sidebar .sidebar_menu li {
 	margin-bottom: 6px;
 }
-#privacy_policy .sidebar .sidebar_menu li a {
+#terms_of_use .sidebar .sidebar_menu li a {
 	color: #333;
 	font-size: 14px;
 	-webkit-transition: color .2s;
@@ -212,43 +212,43 @@
 	-ms-transition: color .2s;
 	transition: color .2s;
 }
-#privacy_policy .sidebar .sidebar_menu li a:hover {
+#terms_of_use .sidebar .sidebar_menu li a:hover {
 	color: #1187D8;
 }
-#privacy_policy .sidebar .recent_posts {
+#terms_of_use .sidebar .recent_posts {
 	list-style-type: none;
 	margin-top: 30px;
 	margin-left: 0px;
 }
-#privacy_policy .sidebar .recent_posts li {
+#terms_of_use .sidebar .recent_posts li {
 	margin-bottom: 20px;
 	font-size: 15px;
 }
-#privacy_policy .sidebar .recent_posts .thumb {
+#terms_of_use .sidebar .recent_posts .thumb {
 	border: 3px solid #fff;
 	box-shadow: 0px 0px 1px 1px #bdbdbd;
 }
-#privacy_policy .sidebar .recent_posts a.link {
+#terms_of_use .sidebar .recent_posts a.link {
 	color: #333;
 	display: block;
 	margin-top: 10px;
 }
-#privacy_policy .sidebar .recent_posts a:hover {
+#terms_of_use .sidebar .recent_posts a:hover {
 	color: #87a46e;
 	text-decoration: underline;
 }
-#privacy_policy .sidebar ul.recent_photos{
+#terms_of_use .sidebar ul.recent_photos{
 	list-style-type: none;
 	margin-left: 0px;
 	padding-top: 18px;
 }
-#privacy_policy .sidebar ul.recent_photos li{
+#terms_of_use .sidebar ul.recent_photos li{
 	list-style: none;
 	display: inline-block;
 	margin-right: 6px;
 	margin-bottom: 11px;
 }
-#privacy_policy .sidebar ul.recent_photos li a img {
+#terms_of_use .sidebar ul.recent_photos li a img {
 	max-width: 55px;
 	margin-right: 9px;
 	border-radius: 3px;
@@ -279,7 +279,7 @@
 	#blog_wrapper .sidebar .search-query {
 		width: 85%;
 	}
-	#privacy_policy .sidebar .box .recent p{
+	#terms_of_use .sidebar .box .recent p{
 		font-size: 13px;
 	}
 }
