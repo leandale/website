@@ -29,6 +29,15 @@ sup {
     font-size: 10em;
 }
 
+i {
+    color: #1189D9;
+}
+
+#service_2 i {
+    color: white;
+    line-height: 135px;
+}
+
 #service_2 .lead_stream .description_wrapper img {
     float:right;
 }
