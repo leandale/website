@@ -147,3 +147,15 @@ i {
     -moz-transition: opacity .1s linear;
     transition: opacity .1s linear;
 }
+#footer .container .credits a {
+    font-style: italic;
+    color: #a6a6a7;
+    padding: 0 10px;
+}
+#footer .container .credits .footer_links {
+    text-align: center;
+    margin-top: 20px;
+}
+#footer .container .credits .footer_links ul li:not(:last-child) {
+    border-right: 1px solid #ccc;
+}
