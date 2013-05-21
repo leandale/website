@@ -1,4 +1,5 @@
-#respond input {
+#respond input,
+#respond textarea {
     width: 500px;
 }
 #blog{
