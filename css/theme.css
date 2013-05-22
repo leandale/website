@@ -23,6 +23,9 @@ textarea {
 
 /* Navbar
 -------------------------------------------------- */
+.navbar .nav.pull-right {
+    margin-top: 10px;
+}
 body.pull_top {
     padding-top: 0px !important;
 }
