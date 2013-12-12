@@ -275,6 +275,16 @@
 
     <script type="text/javascript" src="js/index-slider.js"></script>
 
+    <script type="text/javascript">
+        $.ajax({
+            url: '//munchkin.marketo.net/munchkin.js',
+            dataType: 'script',
+            cache: true,
+            success: function() {
+                Munchkin.init('554-VZA-399');
+            }
+        });
+    </script>
 
     <script type="text/javascript">
 
